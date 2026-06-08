@@ -47,7 +47,9 @@
       "Bash(curl -s \"http://localhost:8081/status\" --max-time 5)",
       "Bash(python3 -c \"import sys,json; d=json.load\\(sys.stdin\\); print\\('name:',d.get\\('name'\\)\\); print\\('android.package:',d.get\\('android',{}\\).get\\('package'\\)\\); print\\('version:',d.get\\('version'\\)\\)\")",
       "Bash(npx --yes eas-cli@latest --version)",
-      "Bash(python3 -c \"import json;d=json.load\\(open\\('/tmp/cfg.json'\\)\\);print\\('name:',d['name']\\);print\\('package:',d['android']['package']\\);print\\('version:',d['version']\\);print\\('versionCode:',d['android'].get\\('versionCode'\\)\\)\")"
+      "Bash(python3 -c \"import json;d=json.load\\(open\\('/tmp/cfg.json'\\)\\);print\\('name:',d['name']\\);print\\('package:',d['android']['package']\\);print\\('version:',d['version']\\);print\\('versionCode:',d['android'].get\\('versionCode'\\)\\)\")",
+      "Bash(open \"https://expo.dev/signup\")",
+      "Bash(npx eas-cli *)"
     ]
   }
 }

@@ -22,6 +22,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "6d555a49-de2e-44fd-8393-7d221a0dee9c"
+      }
+    },
+    "owner": "tugbatufek"
   }
 }
