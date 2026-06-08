@@ -1,0 +1,8 @@
+# Supabase
+supabase/.branches
+supabase/.temp
+.env
+.env.local
+
+# OS
+.DS_Store

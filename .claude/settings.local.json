@@ -1,0 +1,25 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(supabase --version)",
+      "Bash(supabase projects *)",
+      "Bash(npm --version)",
+      "Bash(docker --version)",
+      "Bash(supabase orgs *)",
+      "Bash(node -e \"let d='';process.stdin.on\\('data',c=>d+=c\\);process.stdin.on\\('end',\\(\\)=>{const j=JSON.parse\\(d.slice\\(d.indexOf\\('['\\)\\)\\);const pub=j.find\\(k=>k.type==='publishable'\\);console.log\\('PUBLISHABLE/ANON KEY:',pub.api_key\\);}\\)\")",
+      "Bash(node -e \"const fs=require\\('fs'\\);let d=fs.readFileSync\\('/tmp/keys.json','utf8'\\);d=d.replace\\(/\\\\x1b\\\\[[0-9;]*[a-zA-Z]/g,''\\).replace\\(/[│◒◐◓◑]/g,''\\);d=d.slice\\(d.indexOf\\('['\\)\\);const j=JSON.parse\\(d\\);const pub=j.find\\(k=>k.type==='publishable'||k.name==='anon'||k.type==='legacy'\\);j.forEach\\(k=>console.log\\(k.type, k.name, '=>', k.api_key\\)\\);\")",
+      "Bash(python3 -c ' *)",
+      "Bash(supabase db *)",
+      "Bash(supabase config *)",
+      "Bash(openssl rand *)",
+      "Bash(curl -s -X POST https://knobvfyrxpitogkfidod.supabase.co/auth/v1/signup -H 'apikey: sb_publishable_tSFehwlz56Wq0LHVxq0ptQ_TjDeOpK9' -H 'Content-Type: application/json' -d '{\"email\":\"__TRACKED_VAR__\",\"password\":\"test123456\"}')",
+      "Bash(python3 -c \"import sys,json;d=json.load\\(sys.stdin\\);print\\('access_token present:', bool\\(d.get\\('access_token'\\)\\)\\);print\\('confirmed_at:', d.get\\('user',{}\\).get\\('confirmed_at'\\) or d.get\\('confirmed_at'\\)\\);print\\('role:', d.get\\('user',{}\\).get\\('role'\\)\\);print\\('keys:', list\\(d.keys\\(\\)\\)\\)\")",
+      "Bash(gh auth *)",
+      "Bash(git --version)",
+      "Bash(gh api *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git -c user.name=avtugbatufek-design -c user.email=avtugbatufek@gmail.com commit -q -m 'Supabase tabanlı basit todo uygulaması *)"
+    ]
+  }
+}
