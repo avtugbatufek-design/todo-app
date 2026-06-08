@@ -16,6 +16,16 @@ Tarayıcıda `http://localhost:5500` adresini aç.
 ## Yayın
 GitHub Pages ile yayınlanır (`index.html` kök dizinde).
 
+## Mobil uygulama (React Native / Expo)
+Aynı Supabase backend'ini kullanan Expo SDK 54 uygulaması [mobile/](mobile) altında.
+```bash
+cd mobile
+npm install
+npx expo start
+```
+Telefonunda **Expo Go** ile çıkan QR kodu okut. Aynı Wi-Fi ağında olman gerekir
+(değilse `npx expo start --tunnel` kullan).
+
 ## Veritabanı
 Şema [supabase/migrations](supabase/migrations) altında. Uzak projeye uygulamak için:
 ```bash

@@ -19,7 +19,22 @@
       "Bash(gh api *)",
       "Bash(git init *)",
       "Bash(git add *)",
-      "Bash(git -c user.name=avtugbatufek-design -c user.email=avtugbatufek@gmail.com commit -q -m 'Supabase tabanlı basit todo uygulaması *)"
+      "Bash(git -c user.name=avtugbatufek-design -c user.email=avtugbatufek@gmail.com commit -q -m 'Supabase tabanlı basit todo uygulaması *)",
+      "Bash(gh repo *)",
+      "Bash(python3 -c 'import sys,json *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\\\\n\" https://avtugbatufek-design.github.io/todo-app/)",
+      "Bash(curl -s https://avtugbatufek-design.github.io/todo-app/)",
+      "Bash(npx --yes create-expo-app@latest mobile --template blank --no-install)",
+      "Bash(npm install *)",
+      "Bash(npx expo *)",
+      "Bash(python3 -c \"import sys,json;print\\('expo:',json.load\\(sys.stdin\\)['version']\\)\")",
+      "Bash(node -e 'require.resolve\\('\\\\''__TRACKED_VAR__/package.json'\\\\''\\)')",
+      "Bash(lsof -iTCP:8081 -sTCP:LISTEN -n)",
+      "Bash(curl -s \"http://localhost:8081/status\")",
+      "Bash(curl -s -o /tmp/bundle_out.js -w \"HTTP %{http_code} | boyut: %{size_download} bayt\\\\n\" \"http://localhost:8081/index.bundle?platform=ios&dev=true&minify=false\" --max-time 240)",
+      "Read(//tmp/**)",
+      "Bash(pkill -f \"expo start\")",
+      "Bash(pkill -f \"expo/bin/cli start\")"
     ]
   }
 }
